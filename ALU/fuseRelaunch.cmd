@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/enria/Documents/ALU/TB_ALU_4BITS_isim_translate.exe" -prj "C:/Users/enria/Documents/ALU/TB_ALU_4BITS_translate.prj" "work.TB_ALU_4BITS" 

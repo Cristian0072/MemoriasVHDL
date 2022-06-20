@@ -1,0 +1,29 @@
+Command line:
+   TB_ALU_4BITS_isim_translate.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49884
+
+Sun Jun 19 20:36:53 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5153.04 Meg
+
+ Total Signals          : 5
+ Total Nets             : 16
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 3
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 394
+Total Line Count : 3
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5153.04 Meg
+
+Sun Jun 19 20:37:08 2022
+

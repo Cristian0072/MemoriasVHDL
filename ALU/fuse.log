@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/enria/Documents/ALU/TB_ALU_4BITS_isim_translate.exe -prj C:/Users/enria/Documents/ALU/TB_ALU_4BITS_translate.prj work.TB_ALU_4BITS 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/enria/Documents/ALU/TB_ALU_4BITS.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/enria/Documents/ALU/TB_ALU_4BITS.vhd" Line 32: <alu_4bits> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/enria/Documents/ALU/TB_ALU_4BITS.vhd" Line 32. Instance alu_4bits is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavior of entity tb_alu_4bits
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/enria/Documents/ALU/TB_ALU_4BITS_isim_translate.exe
+Fuse Memory Usage: 34892 KB
+Fuse CPU Usage: 796 ms

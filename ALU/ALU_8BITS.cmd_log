@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/enria/Documents/ALU/ALU_8BITS.xst" -ofn "C:/Users/enria/Documents/ALU/ALU_8BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ALU_8BITS.ngc ALU_8BITS.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm ALU_8BITS -w -dir netgen/translate -ofmt vhdl -sim ALU_8BITS.ngd ALU_8BITS_translate.vhd 
